@@ -1,0 +1,141 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virgin Flood - Группа для общения</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a0000;
+            color: #ffcccc;
+        }
+        
+        header {
+            background-color: #800000;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #ff0000;
+        }
+        
+        h1 {
+            color: #ffffff;
+            text-shadow: 2px 2px 4px #000000;
+            font-size: 2.5em;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .main-content {
+            background-color: #330000;
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+        }
+        
+        .join-button {
+            display: inline-block;
+            background-color: #ff3333;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: all 0.3s;
+            border: 2px solid #ff6666;
+        }
+        
+        .join-button:hover {
+            background-color: #ff0000;
+            transform: scale(1.05);
+        }
+        
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border: 3px solid #ff3333;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        
+        footer {
+            background-color: #800000;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            border-top: 5px solid #ff0000;
+        }
+        
+        .flood-text {
+            animation: flood 3s infinite;
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        
+        @keyframes flood {
+            0% { color: #ffcccc; }
+            50% { color: #ff3333; }
+            100% { color: #ffcccc; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>VIRGIN FLOOD</h1>
+        <p>Устал?</p>
+    </header>
+    
+    <div class="container">
+        <div class="main-content">
+            <h2>Добро пожаловать в Virgin Flood!</h2>
+            <p class="flood-text">Мы - сообщество крутых чувачков, где можно свободно общаться на любые темы.</p>
+            <p>Наша группа создана для тех, кто ценит общение, интересные дискуссии и дружескую атмосферу.</p>
+            
+            <h3>Мы ждем новых участников!</h3>
+            <p>Ты нам нужен, если:</p>
+            <ul>
+                <li>Любишь интересные беседы</li>
+                <li>Хочешь найти новых друзей</li>
+                <li>Готов делиться своими мыслями</li>
+                <li>Всегда готов поделиться любимым делом</li>
+            </ul>
+            
+            <div style="text-align: center;">
+                <a href="#" class="join-button">Присоединиться к Virgin Flood</a>
+            </div>
+            
+            <h3>Наша атмосфера</h3>
+            <div class="gallery">
+                <img src="https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Общение">
+                <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Друзья">
+                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Идеи">
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Virgin Flood.</p>
+        <p>Свяжитесь: contact@virginflood.com</p>
+    </footer>
+</body>
+</html>
